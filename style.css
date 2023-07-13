@@ -1,0 +1,41 @@
+body, html {height: 100%}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+
+.menu {display: none}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://st4.depositphotos.com/5354238/20734/i/600/depositphotos_207344950-stock-photo-women-clothing-on-hangers-in.jpg");
+  min-height: 90%;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
